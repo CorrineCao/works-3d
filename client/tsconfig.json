@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "module": "esNext",
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports": true,
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "experimentalDecorators": true,
+        "sourceMap": true,
+        "jsx": "react",
+        "baseUrl": "./src",
+        "allowJs": true,
+        "target": "es5",
+        "lib": ["es2016", "dom"],
+    },
+    "include": ["src/**/*"]
+}
